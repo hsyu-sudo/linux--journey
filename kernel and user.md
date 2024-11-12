@@ -4,7 +4,7 @@ The kernel is the only program that has direct access to hardware.
 * It offers a set of APIs that applications issue which are generally referred to as system calls.
 
 In order to provide application compatibility, system calls are rarely changed.
-* **Process Call**: 
+
 
 ## User Mode vs. Kernel Mode
 * Code that runs in kernel model can fully control the CPU.
@@ -13,3 +13,7 @@ In order to provide application compatibility, system calls are rarely changed.
 ## User Space vs. Kernel Space
 * The kernel spece is the memory area that is reserved to kernel. It is accessed protected so that user applications can not access it directly.
 * The user space is the memory area that is reserved to a particular user process. It can be directly accessed from code running in kernel mode.
+
+# System Calls
+A system call is an interface between user space and kernel space.
+
