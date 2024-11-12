@@ -1,6 +1,7 @@
 The kernel is the only program that has direct access to hardware. 
-* It is responsible for access and sharing the hardware in a **secure** and **fair** manner with muliple applications.
+* It is responsible for access and sharing the hardware in a secure and fair manner with muliple applications.
 * It offers a set of APIs that applications issue which are generally referred to as system calls.
+  * 
 
 ## User Mode vs. Kernel Mode
 * Code that runs in kernel model can fully control the CPU.
