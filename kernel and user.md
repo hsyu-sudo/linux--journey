@@ -1,9 +1,11 @@
-# System Calls
-The kernel is the only program that has direct access to hardware. 
+# How does a linux kernel work?
+A linux kernel is the only program that has direct access to hardware. 
 * It is responsible for access and sharing the hardware in a secure and fair manner with muliple applications.
 * It offers a set of APIs that applications issue which are generally referred to as system calls.
 
-In order to provide application compatibility, system calls are rarely changed.
+A linux kernel is made up of six distinct layers, or subystems that enables its core functions:
+
+
 
 
 ## User Mode vs. Kernel Mode
