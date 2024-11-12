@@ -16,7 +16,8 @@ It can be directly accessed from code running in kernel mode.
 
 # How does a linux kernel work?
 A linux kernel is made up of six distinct layers, or subystems that enables its core functions:
-* System Call Implementation: This layer carries the functionality that allows the kernel to execute system calls from user space into the kernel space.
+## System Call Implementation
+   This layer carries the functionality that allows the kernel to execute system calls from user space into the kernel space.
 * process management
 * memory management
 * virtual memory
