@@ -8,17 +8,23 @@ A linux kernel is the only program that has direct access to hardware.
 * Code that runs in user mode has certain limitations.
 
 ## User Space vs. Kernel Space
-The kernel spece is the memory area that is reserved to kernel. 
-It is accessed protected so that user applications can not access it directly.
+* The kernel spece is the memory area that is reserved to kernel. 
+* It is accessed protected so that user applications can not access it directly.
 
-The user space is the memory area that is reserved to a particular user process. 
-It can be directly accessed from code running in kernel mode.
+* The user space is the memory area that is reserved to a particular user process. 
+* It can be directly accessed from code running in kernel mode.
 
 # How does a linux kernel work?
 A linux kernel is made up of six distinct layers, or subystems that enables its core functions:
+
 ## System Call Implementation
-   This layer carries the functionality that allows the kernel to execute system calls from user space into the kernel space.
-* process management
+This layer carries the functionality that allows the kernel to execute system calls from user space into the kernel space.
+   
+## Process Management
+This layer enables the kernel to execute the processes that allow for users to interact with the computer.
+* When linux first boot, `Init` brings the system to a usable state by running startup scripts and managing run levels.
+
+
 * memory management
 * virtual memory
 * network stack
