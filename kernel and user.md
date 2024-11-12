@@ -8,10 +8,10 @@ A linux kernel is the only program that has direct access to hardware.
 * Code that runs in user mode has certain limitations.
 
 ## User Space vs. Kernel Space
-* The kernel spece is the memory area that is reserved to kernel. 
+The kernel spece is the memory area that is reserved to kernel. 
 * It is accessed protected so that user applications can not access it directly.
 
-* The user space is the memory area that is reserved to a particular user process. 
+The user space is the memory area that is reserved to a particular user process. 
 * It can be directly accessed from code running in kernel mode.
 
 # How does a linux kernel work?
