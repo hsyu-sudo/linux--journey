@@ -27,3 +27,6 @@ When a user space program makes a system call, it doesn't directly invoke a kern
 Instead, it uses a system call number to reference desired system call.
 This mechanism maintains a consistent interface, even as underlying system call implementations evolve. 
 
+# System Call Wrappers
+
+
