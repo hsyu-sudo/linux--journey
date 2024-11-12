@@ -24,7 +24,7 @@ In order to provide application compatiability, system calls are rarely changed.
 
 Every system call is assigned a system call number.
 When a user space program makes a system call, it doesn't directly invoke a kernel function.
-Instead, it uses the system call number to reference the desired system call.
-In turn, the kernel uses a system call number to determine the appropriate function to execute.
+Instead, it uses a system call number to reference desired system call.
+In turn, a system call number determinates an appropriate function to execute.
 This mechanism maintains a consistent interface, even as the underlying system call implementations evolve. 
 
