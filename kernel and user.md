@@ -15,5 +15,5 @@ In order to provide application compatibility, system calls are rarely changed.
 * The user space is the memory area that is reserved to a particular user process. It can be directly accessed from code running in kernel mode.
 
 # System Calls
-A system call is an interface between user space and kernel space.
+A system call is an interface between user space and kernel space. In order to provide application compatiability, system calls are rarely changed.
 
