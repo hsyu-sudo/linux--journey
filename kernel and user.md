@@ -21,9 +21,10 @@ It can be directly accessed from code running in kernel mode.
 A system call is an interface between user space and kernel space. 
 In order to provide application compatiability, system calls are rarely changed.
 
-Every system call is assigned a unique number, known as the sytem call number.
+
+Every system call is assigned a system call number.
 When a user space program makes a system call, it doesn't directly invoke a kernel function.
-Instead, it uses a numerical identifier to reference the desired system call.
-In turn, the kernel uses this identifier to determine an appropriate function to execute.
+Instead, it uses the system call number to reference the desired system call.
+In turn, the kernel uses a system call number to determine the appropriate function to execute.
 This mechanism maintains a consistent interface, even as the underlying system call implementations evolve. 
 
